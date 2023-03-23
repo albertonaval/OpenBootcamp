@@ -1,0 +1,35 @@
+.button::before{
+   content: 'Pasa por encima';
+
+}
+
+.button:hover::before{
+cursor: pointer;
+color: white;
+background-color: green;
+content: 'Hecho';
+}
+
+/* p::selection{
+   background-color: black;
+   color: wheat;
+} */
+
+
+
+
+/* a:link{
+
+}
+
+a:visited {
+
+}
+
+a:hover{
+
+}
+
+a:active{
+
+} */
