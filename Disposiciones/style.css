@@ -1,0 +1,37 @@
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+img {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+
+
+/* .video{
+    width: 100vh;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+}
+
+.header {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+} */
