@@ -1,12 +1,22 @@
+body {
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.button:hover{
+   cursor: pointer;
+   color: white;
+   background-color: green;
+}
+
 .button::before{
    content: 'Pasa por encima';
 
 }
 
 .button:hover::before{
-cursor: pointer;
-color: white;
-background-color: green;
 content: 'Hecho';
 }
 
@@ -31,5 +41,6 @@ a:hover{
 }
 
 a:active{
+
 
 } */
