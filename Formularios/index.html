@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">Sign Up</h2>
+      <div class="buttons">
+        <button class="google-btn">
+          <picture>
+            <img
+              src="https://imgs.search.brave.com/e9YYiYaH_fvlYsxTSwqFf40N87_wPwKzjyO2BIHsJ8c/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5t/VmZZTFlQSUY5d19K/NW5oVkVPNmZBSGFI/YSZwaWQ9QXBp"
+              alt="Google Logo"
+            />
+          </picture>
+          <span>Register with google</span>
+        </button>
+        <button class="twitter-btn">
+          <picture>
+            <img
+              src="https://imgs.search.brave.com/nzbR0Zh67RRA2YEBsE8LdNfab63409Plu8Kmt0tJsMk/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5D/YTdCalZUVF9NemtC/VEVOQmgzdm1BSGFI/YSZwaWQ9QXBp"
+            />
+          </picture>
+        </button>
+      </div>
+      <div class="separator">
+        <hr />
+        <span>Or</span>
+        <hr />
+      </div>
+      <form action="">
+        <div class="sections-input">
+          <label for="name">
+            <span>Name</span>
+            <input id="name" type="text" name="name" />
+          </label>
+          <label for="username">
+            <span>Username</span>
+            <input id="username" name="username" type="text" />
+          </label>
+        </div>
+        <label for="email">
+          <span>Email</span>
+          <input type="email" name="email" id="email" />
+        </label>
+        <label for="password">
+          <span>Password</span>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="6+ characters"
+          />
+        </label>
+        <label for="checkbox" class="checkbox-label">
+          <input type="checkbox" />
+          <span
+            >I accept the legal terms and conditions and the legal notice</span
+          >
+        </label>
+        <button type="submit" class="submit-btn">Create Account</button>
+      </form>
+    </div>
+  </body>
+</html>
