@@ -8,4 +8,40 @@
     width: 50%;
     height: 50%;
     background-color: gray;
+    transition: transform 1s cubic-bezier(0.77, 0.08, 0.32, 1.36) 1s; /* Se saca del navegador en la consola*/
+    animation: traslacion 2s ease-in-out infinite alternate;
+}
+
+.padre:hover .hijo{
+    /* transform: translateX(100%);
+    background-color: black; */
+    animation-play-state: paused;
+}
+
+@keyframes traslacion {
+    0% {
+        background-color: gray;
+        transform: translateX(0%);
+    }
+
+    25% {
+        background-color: yellow;
+        transform: translateX(100%);
+    }
+
+    50% {
+        background-color: yellowgreen;
+        transform: translateX(100%) translateY(100%);
+    }
+
+    75%{
+        background-color: green;
+        transform: translateY(100%);
+    }
+
+    100% {
+        background-color: darkgreen;
+        transform: translateX(0%) translateY(0%);
+
+    }
 }
