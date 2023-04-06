@@ -1,0 +1,52 @@
+body{
+   margin: 0;
+   padding: 20px;
+}
+
+.scenario-1 {
+   margin: 10px 0px;
+   border: 1px solid black;
+   padding: 10px;
+   width: 100%;
+
+}
+
+.scenario-2 {
+   margin: 10px 0px;
+   border: 1px solid black;
+   padding: 10px;
+   width: 50%;
+}
+
+.px {
+   background-color: green;
+   width: 200px; /*Unidad fija*/
+}
+
+.porcentaje{
+   background-color: red;
+   width: 50%; /*Mitad del elemento padre*/
+}
+
+.view {
+   background-color: yellow;
+   width: 50vw; /* Mitad de la pantalla*/
+}
+
+.escenario1 {
+   border: 1px solid black;
+   padding: 10px;
+}
+
+.escenario2 {
+   border: 1px solid black;
+   padding: 10px;
+}
+
+.em {
+   font-size: 2em; /*Tamaño de fuente del contender*/
+}
+
+.rem{
+   font-size: 2rem; /*Tamaño de fuente relacionada con el elemento raíz*/
+}
