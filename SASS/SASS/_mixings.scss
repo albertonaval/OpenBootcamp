@@ -1,0 +1,8 @@
+$text-color: gray;
+
+@mixin text-format($bg-color: black) {
+    color: $text-color;
+    width: 50rem;
+    text-transform: uppercase;
+    background-color: $bg-color;
+}
