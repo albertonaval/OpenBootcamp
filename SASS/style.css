@@ -1,0 +1,72 @@
+.btn, .btn-2 {
+  margin-top: 0.25rem;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  background-color: greenyellow;
+  color: black;
+  border-radius: 5px;
+}
+.btn:hover, .btn-2:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-2 {
+  border-radius: 10px;
+}
+.btn-2:hover {
+  background-color: aqua;
+  color: black;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: whitesmoke;
+  min-height: 100vh;
+  padding: 0.5rem;
+}
+
+h1 {
+  margin: 0;
+  color: gray;
+  width: 50rem;
+  text-transform: uppercase;
+  background-color: black;
+}
+
+h2 {
+  color: gray;
+  width: 50rem;
+  text-transform: uppercase;
+  background-color: black;
+}
+
+p {
+  color: gray;
+  width: 50rem;
+  text-transform: uppercase;
+  background-color: blue;
+}
+
+.listado {
+  width: 10rem;
+  background-color: aquamarine;
+  padding: 0.5rem;
+}
+.listado ul {
+  margin: 0 0.5rem;
+}
+.listado ul li {
+  list-style: none;
+}
+.listado ul li:hover {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

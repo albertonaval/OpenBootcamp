@@ -1,3 +1,5 @@
 @use "sass:string";
 
-@debug "hola"
+@debug "hola";
+
+@debug string.index("Helvetica Neue", "Neue")
