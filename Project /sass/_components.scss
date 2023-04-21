@@ -4,11 +4,6 @@
    border-radius: 0.25rem;
 }
 
-@mixin btn-sm-modify{
-   font-size: 0.75rem;
-   padding: 0.1rem 1rem;
-}
-
 $color-main: #0075FF;
 $color-footer: #f4f8fe;
 
@@ -19,16 +14,13 @@ $color-footer: #f4f8fe;
    color: white;
    border: none;
    border: 1px solid $color-main;
+   margin: 0 0.5rem;
 
    &:hover{
       background-color: white;
       color: $color-main;
    }
 
-   &-s {
-      @extend .btn-main;
-      @include btn-sm-modify()
-   }
 }
 
 .btn-sec {
@@ -36,15 +28,17 @@ $color-footer: #f4f8fe;
    color: black;
    background-color: transparent;
    border: none;
+   border-radius: 0.25rem;
+   border: 1px solid $color-main;
+   margin: 0 0.5rem;
 
    &:hover{
-      color: #888;
+      color: $color-main;
+      border-radius: 0.25rem;
+      border: 1px solid $color-main;
    }
 
-   &-s {
-      @extend .btn-main;
-      @include btn-sm-modify()
-   }
+
 }
 
 .main-menu{
@@ -125,11 +119,11 @@ $color-footer: #f4f8fe;
    i{
       padding: 0;
       color: $color-main;
-      font-size: 10rem;
+      font-size: 7rem;
 
    }
-   .title{
 
+   .title{
       margin-top: -1rem;
       font-size: 1.5rem;
       font-weight: 600;

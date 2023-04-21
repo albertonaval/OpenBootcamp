@@ -1,18 +1,15 @@
-.btn-main, .btn-sec-s, .btn-main-s {
+.btn-main {
   padding: 0.25rem 1.5rem;
   border-radius: 0.25rem;
   background-color: #0075FF;
   color: white;
   border: none;
   border: 1px solid #0075FF;
+  margin: 0 0.5rem;
 }
-.btn-main:hover, .btn-sec-s:hover, .btn-main-s:hover {
+.btn-main:hover {
   background-color: white;
   color: #0075FF;
-}
-.btn-main-s {
-  font-size: 0.75rem;
-  padding: 0.1rem 1rem;
 }
 
 .btn-sec {
@@ -21,13 +18,14 @@
   color: black;
   background-color: transparent;
   border: none;
+  border-radius: 0.25rem;
+  border: 1px solid #0075FF;
+  margin: 0 0.5rem;
 }
 .btn-sec:hover {
-  color: #888;
-}
-.btn-sec-s {
-  font-size: 0.75rem;
-  padding: 0.1rem 1rem;
+  color: #0075FF;
+  border-radius: 0.25rem;
+  border: 1px solid #0075FF;
 }
 
 .main-menu {
@@ -97,12 +95,16 @@
 .icon-desc i {
   padding: 0;
   color: #0075FF;
-  font-size: 10rem;
+  font-size: 7rem;
 }
 .icon-desc .title {
   margin-top: -1rem;
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+html {
+  min-width: 100vw;
 }
 
 body {
@@ -139,6 +141,12 @@ body {
 .sec-home .home-cta .home-title {
   width: 20rem;
   font-size: 3rem;
+}
+.sec-home .home-cta .home-description {
+  width: 300px;
+}
+.sec-home .home-cta .lead-magnet .input-col {
+  max-width: 250px;
 }
 .sec-home .home-cta .home-img {
   max-width: 7rem;
@@ -252,4 +260,34 @@ body {
 }
 .sec-footer-cta .footer-cta .cta-description {
   font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .btn-main {
+    font-size: 0.75rem;
+    padding: 0.1rem 1rem;
+    margin: 0 0.25rem;
+  }
+  .btn-sec {
+    font-size: 0.75rem;
+    padding: 0.1rem 1rem;
+    margin: 0 0.25rem;
+  }
+  .sec-benefits .benefit-cards {
+    gap: 0;
+  }
+  .sec-onboarding .steps {
+    flex-direction: column;
+  }
+  .sec-onboarding .steps .icon-desc .title {
+    text-align: center;
+  }
+  .sec-footer-cta {
+    background-image: none;
+    padding: 2rem;
+  }
+  .sec-footer-cta .footer-cta {
+    max-width: 100%;
+    text-align: center;
+  }
 }/*# sourceMappingURL=index.css.map */

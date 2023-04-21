@@ -7,6 +7,10 @@
       margin: auto;
 }
 
+html{
+   min-width: 100vw;
+}
+
 body{
    margin: 0;
    padding: 0;
@@ -38,6 +42,14 @@ body{
       .home-title{
          width: 20rem;
          font-size: 3rem;
+      }
+      .home-description{
+         width: 300px;
+      }
+      .lead-magnet {
+         .input-col{
+            max-width: 250px;
+         }
       }
       .home-img{
          max-width: 7rem;
@@ -168,3 +180,48 @@ body{
    }
 
 }
+
+@media (max-width: 768px){
+
+   .btn-main{
+      font-size: 0.75rem;
+      padding: 0.1rem 1rem;
+      margin: 0 0.25rem
+   }
+
+   .btn-sec{
+      font-size: 0.75rem;
+      padding: 0.1rem 1rem;
+      margin: 0 0.25rem
+   }
+
+   .sec-benefits {
+      .benefit-cards{
+         gap: 0
+      }
+   }
+
+   .sec-onboarding{
+      .steps{
+         flex-direction: column;
+         .icon-desc {
+            .title {
+               text-align: center;
+            }
+         }
+      }
+   }
+
+   .sec-footer-cta{
+      background-image: none;
+      padding: 2rem;
+
+      .footer-cta{
+         max-width: 100%;
+         text-align: center;
+      }
+   }
+
+
+}
+
