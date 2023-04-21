@@ -1,5 +1,6 @@
 @use "components";
 
+
 @mixin section-display{
       width: 100%;
       padding: 3rem;
@@ -147,4 +148,23 @@ body{
       border-top: 3px solid #ccc;
       margin: 0rem 2rem;
    }
+}
+
+.sec-footer-cta{
+   background-color: components.$color-footer;
+   padding: 5rem;
+   background-image: url(../assets/img/245d5698473dc72a.webp);
+   background-repeat: no-repeat;
+   background-position: 100%;
+   background-size: contain;
+   .footer-cta{
+      max-width: 50%;
+      .cta-title{
+         font-size: 3rem;
+      }
+      .cta-description{
+         font-size: 1.1rem;
+      }
+   }
+
 }
