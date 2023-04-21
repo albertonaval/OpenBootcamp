@@ -50,7 +50,7 @@
 }
 
 .icon-sm i {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: #0075FF;
   padding: 0.5rem;
   border-radius: 50%;
@@ -153,11 +153,12 @@ body {
   text-align: center;
 }
 .sec-features .intro h3, .sec-features .sec-benefits h3, .sec-benefits .intro h3, .sec-benefits .sec-benefits h3 {
-  font-size: 1.9rem;
+  font-size: 2.5rem;
 }
 .sec-features .intro p, .sec-features .sec-benefits p, .sec-benefits .intro p, .sec-benefits .sec-benefits p {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #888;
+  margin-bottom: 3rem;
 }
 .sec-features .features, .sec-benefits .features {
   display: flex;
@@ -197,4 +198,26 @@ body {
   width: 100%;
   padding: 2rem 4rem;
   gap: 6rem;
+}
+
+.sec-kpis {
+  background-color: #0075FF;
+  color: white;
+  padding: 4rem;
+  width: 100%;
+}
+.sec-kpis .kpi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec-kpis .kpi .number {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.sec-kpis .kpi .desc {
+  font-size: 0.8rem;
+  color: #ccc;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
