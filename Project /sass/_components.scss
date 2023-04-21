@@ -78,13 +78,13 @@ $color-main: #0075FF;
    }
 }
 
-.feature {
+.benefit {
    display: flex;
    flex-direction: column;
 
-   .icon{
+   i{
       color: $color-main;
-      font-size: 10rem;
+      font-size: 5rem;
       text-align: center;
    }
 
@@ -104,6 +104,13 @@ $color-main: #0075FF;
          font-weight: 600;
          margin-top: 3rem;
          text-align: center;
+         a {
+            text-decoration: none;
+
+            &:hover{
+               color: #0065df;
+            }
+         }
       }
    }
 }
